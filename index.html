@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="An amazing mobile form" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/default.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Mobile Form</title>
+  </head>
+  <body>
+    <header class="nav navbar-top">
+      <i class="fas fa-play light turn top-icon"></i>
+      <i class="fas fa-circle light top-icon"></i>
+      <i class="fas fa-square light top-icon"></i>
+    </header>
+    <nav class="nav navbar-bottom">
+      <a href="#"><i class="fas fa-bars icon-item"></i></a>
+      <h2>Contacts</h2>
+      <i class="fas fa-search icon-item"></i>
+      <i class="fas fa-ellipsis-v icon-item"></i>
+    </nav>
+    <main>
+      <form action="" class="box">
+        <label for="name" class="f1 center">
+          <i class="fas fa-user icon-item"></i>
+        </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="input-dark f2"
+          placeholder="Name"
+        />
+        
+        <label for="" class="f3 center">
+          <i class="fas fa-phone-alt icon-item"></i>
+        </label>
+        <input
+          type="number"
+          name="number"
+          id="number"
+          class="input-light f4"
+          placeholder="Phone Number"
+        />
+        <select name="phone" id="phone" class="select input-light f5">
+          <option value="" disabled selected>Label</option>
+          <option value="home">Home</option>
+          <option value="mobile">Mobile</option>
+          <option value="work">Work</option>
+          <option value="other">Other</option></select
+        >
+        <label for="adress" class="f6 center">
+          <i class="fas fa-map-marker-alt icon-item"></i>
+        </label>
+
+        <input
+          type="text"
+          name="adress"
+          id="adress"
+          class="input-dark f7"
+          placeholder="Address"
+        />
+        <div class="f15"></div>
+        <input
+          type="text"
+          name="city"
+          id="city"
+          placeholder="City"
+          class="input-light f8"
+        />
+        <select name="state" id="state" class="select input-dark f9">
+          <option value="AZ">AZ</option>
+          <option value="CA">CA</option>
+          <option value="CO">CO</option>
+          <option value="NV">NV</option>
+          <option value="OR">OR</option>
+          <option value="WA">WA</option>
+        </select>
+        <input
+          type="number"
+          name="zip"
+          id="zip"
+          placeholder="Zip"
+          class="input-dark f10"
+        />
+        <label for="" class="f11 center">
+          <i class="fas fa-envelope icon-item"></i>
+        </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          class="input-light f12"
+        />
+        <label for="birthday" class="f13 center">
+          <i class="fas fa-birthday-cake icon-item"></i>
+        </label>
+        <input
+          type="date"
+          name="birthday"
+          id="birthday"
+          value="Birthday"
+          class="input-dark f14"
+        />
+      </form>
+    </main>
+  </body>
+</html>

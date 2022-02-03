@@ -1,0 +1,76 @@
+.navbar-top {
+  background-color: var(--nav-bg-top);
+  flex-direction: row-reverse;
+  padding: 0.625rem;
+}
+.turn {
+  transform: rotate(90deg);
+}
+.navbar-bottom {
+  background-color: var(--nav-bg);
+  color:var(--white);
+  justify-content: center;
+  align-items: center;
+  gap: 1.875rem;
+  padding: 0 1.5625rem;
+}
+.box {
+  display: grid;
+  grid-template-areas:
+  "f1 f2 f2 f2 f2 f2"
+  "f3 f4 f4 f4 f5 f5"
+  "f6 f7 f7 f7 f7 f7"
+  "f15 f8 f8 f8 f8 f8"
+  "f15 f9 f9 f10 f10 f10"
+  "f11 f12 f12 f12 f12 f12"
+  "f13 f14 f14 f14 f14 f14";
+  gap: 1rem;
+  margin: 1.75rem;
+  width: 100%;
+  animation: loadIn ease-in-out 1.3s;
+}
+.f1 {
+  grid-area: f1;
+}
+.f2 {
+  grid-area: f2;
+}
+.f3 {
+  grid-area: f3;
+}
+.f4 {
+  grid-area: f4;
+}
+.f5 {
+  grid-area: f5;
+}
+.f6 {
+  grid-area: f6;
+}
+.f7 {
+  grid-area: f7;
+}
+.f8 {
+  grid-area: f8;
+}
+.f9 {
+  grid-area: f9;
+}
+.f10 {
+  grid-area: f10;
+}
+.f11 {
+  grid-area: f11;
+}
+.f12 {
+  grid-area: f12;
+}
+.f13 {
+  grid-area: f13;
+}
+.f14 {
+  grid-area: f14;
+}
+.center {
+  align-self: center;
+}

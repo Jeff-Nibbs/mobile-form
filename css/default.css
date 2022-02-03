@@ -1,0 +1,101 @@
+:root {
+  --nav-bg: #6300ee;
+  --nav-bg-top: #4704c4;
+  --nav-icon: #ebaffd;
+  --form-default: #7b7b7b;
+  --form-secondary: #d9d9d9;
+  --white: #fff;
+
+  --font-style-primary: "Open Sans", sans-serif;
+  --font-style-secondary: "Hind", sans-serif;
+
+  --size-10: 0.625rem;
+  --size-14: 0.875rem;
+  --size-16: 1rem;
+  --size-18: 1.125rem;
+  --size-20: 1.25rem;
+  --size-30: 1.875rem;
+  --size-40: 2.5rem;
+  --size-50: 3.125rem;
+  --size-100: 6.25rem;
+  --size-150: 9.375rem;
+  
+}
+body {
+  color: var(--form-default);
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-family: var(--font-style-primary);
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-right: auto;
+}
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+.nav {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.icon-item{
+  font-size: var(--size-20)
+}
+.light {
+  color: var(--nav-icon);
+  margin-left: var(--size-10);
+}
+.top-icon {
+  font-size: 0.75rem;
+}
+.input-dark {
+  background-color: var(--form-secondary);
+  border-style: none none solid;
+  border-color: var(--form-default);
+  border-radius: 0.125rem 0.125rem 0 0;
+}
+.input-light {
+  border-color: var(--form-default);
+  border-width: 0.5px;
+  border-radius: 0.125rem;
+}
+.input-dark, .input-light {
+  padding: 1rem;
+  font-size: 1rem;
+}
+::placeholder {
+  color: var(--form-default);
+  font-family: var(--font-style-secondary);
+}
+.select {
+  color: var(--form-default);
+  cursor: pointer;
+}
+.select:focus,
+.select:hover {
+  outline: none;
+}
+@keyframes loadIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-20deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
